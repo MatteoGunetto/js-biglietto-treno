@@ -27,7 +27,7 @@ if( anniPasseggero < 18){
 }else if( anniPasseggero >  65)
 {
     sconto = (prezzo * 40) /100;
-    prezzo = prezzo - sconto; 
+    prezzo = prezzo - sconto ; 
    
 
 }
@@ -41,4 +41,4 @@ console.log(prezzo)
 
 // L’output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo).
 
-document.getElementById('totale').innerHTML = prezzo.toFixed(2); 
+document.getElementById('totale').innerHTML = prezzo.toFixed(2)+"€"; 
